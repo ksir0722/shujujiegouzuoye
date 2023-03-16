@@ -14,5 +14,5 @@ typedef struct
 void InitList_Sd(student *L){
     L->elem =(int *)malloc(MAXSIZE *sizeof(int));
     if(!L->elem) exit(OVERFLOW);
-    L->length=0;
+    L->length=0；
 }
