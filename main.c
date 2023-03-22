@@ -25,5 +25,5 @@ void InitList_Sq(mystudent *L){
 int main(){
     mystudent L;
     Initilist_Sq(*L);
-    printf("Ok")
+    printf("Ok");
 }
