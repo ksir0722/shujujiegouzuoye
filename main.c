@@ -17,8 +17,8 @@ typedef struct{
 }mystudent;
 
 void InitList_Sq(mystudent *L){
-    L->elem =(int *)malloc(MAXSIZE *sizeof(int));
-    if(!L->elem) exit(OVERFLOW);
+    L->student =(int *)malloc(MAXSIZE *sizeof(int));
+    if(!L->student) exit(OVERFLOW);
     L->length=0；
 }
 
