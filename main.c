@@ -11,8 +11,19 @@ typedef struct
     char class;
 }student;
 
-void InitList_Sd(student *L){
+typedef struct{
+    student* student;
+    int length;
+}mystudent;
+
+void InitList_Sq(mystudent *L){
     L->elem =(int *)malloc(MAXSIZE *sizeof(int));
     if(!L->elem) exit(OVERFLOW);
     L->length=0；
+}
+
+int main(){
+    mystudent L;
+    Initilist_Sq(*L);
+    printf("Ok")
 }
