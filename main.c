@@ -12,7 +12,7 @@ typedef struct
 }student;
 
 typedef struct{
-    student* student;
+    student *student;
     int length;
 }mystudent;
 
